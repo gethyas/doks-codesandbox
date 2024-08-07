@@ -1,0 +1,5 @@
+services:
+  app:
+    image: mcr.microsoft.com/devcontainers/base:ubuntu-22.04
+    ports:
+      - 1313:1313
