@@ -28,3 +28,5 @@ COPY ./ /src
 
 # On top of this build, we install `zsh`, `git` and `docker` as additional
 # Docker layers.
+
+EXPOSE 1313
