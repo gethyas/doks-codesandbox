@@ -11,7 +11,7 @@
   "tasks": {
     "start": {
       "name": "dev",
-      "command": "npm run dev -- --bind 0.0.0.0",
+      "command": "hugo server --disableFastRender --noHTTPCache --baseURL https://${hostname}-${port}.csb.app --liveReloadPort=443 --appendPort=false --bind 0.0.0.0",
       "runAtStart": true
     },
     "install": {
