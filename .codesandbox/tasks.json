@@ -12,9 +12,6 @@
     "start": {
       "name": "dev",
       "command": "npm run dev -- --bind 0.0.0.0",
-      "preview": {
-        "port": 1313
-      },
       "runAtStart": true
     },
     "install": {
