@@ -11,7 +11,7 @@
   "tasks": {
     "start": {
       "name": "dev",
-      "command": "hugo server --liveReloadPort=443 --appendPort=false --bind=0.0.0.0 --disableFastRender --noHTTPCache",
+      "command": "npm run dev -- --bind 0.0.0.0",
       "runAtStart": true
     },
     "install": {
