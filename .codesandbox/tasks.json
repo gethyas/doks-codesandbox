@@ -11,7 +11,7 @@
   "tasks": {
     "start": {
       "name": "dev",
-      "command": "npm run dev -- --baseURL / --liveReloadPort 443 --appendPort false --bind 0.0.0.0",
+      "command": "npm run dev -- --baseURL=/ --appendPort=false --liveReloadPort=443 --bind=0.0.0.0",
       "runAtStart": true
     },
     "install": {
